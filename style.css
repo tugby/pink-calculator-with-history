@@ -11,19 +11,23 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(231, 151, 167);
     border-radius: 30px;
+    width: 90%;
     max-width: 500px;
     overflow: hidden;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
 }
-#display{
+
+#display {
     width: 100%;
     padding: 20px;
-    font-size: 5rem;
-    text-align: left;
+    font-size: 3.5rem; 
+    text-align: right;
     border: none;
     background-color: rgb(244, 184, 196);
     color: white;
+    box-sizing: border-box;
 }
+
 #keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
